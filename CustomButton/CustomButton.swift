@@ -18,10 +18,10 @@ class CustomButton: UIButton {
 		
 			if layer.borderWidth <= 0.0 {
 				layer.borderWidth = 4.0;   //default is 0.0
-				layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-				layer.shadowOffset = CGSize (width: 0, height: -8)
-				layer.shadowOpacity = 1.0
-				layer.shadowRadius = 5
+				layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1);
+				layer.shadowOffset = CGSize (width: 0, height: -8);
+				layer.shadowOpacity = 1.0;
+				layer.shadowRadius = 5;
 					
 			
 			}
