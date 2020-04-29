@@ -13,6 +13,11 @@
 		F4A75D24245A097900DBA29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A75D22245A097900DBA29C /* Main.storyboard */; };
 		F4A75D26245A097D00DBA29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A75D25245A097D00DBA29C /* Assets.xcassets */; };
 		F4A75D29245A097D00DBA29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A75D27245A097D00DBA29C /* LaunchScreen.storyboard */; };
+		F4A75D31245A0B4400DBA29C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A75D30245A0B4400DBA29C /* CustomButton.swift */; };
+		F4A75D33245A108700DBA29C /* ButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A75D32245A108700DBA29C /* ButtonExt.swift */; };
+		F4A75D35245A1E1500DBA29C /* LabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A75D34245A1E1500DBA29C /* LabelExt.swift */; };
+		F4A75D37245A216E00DBA29C /* audioTracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A75D36245A216E00DBA29C /* audioTracks.swift */; };
+		F4A75D39245A273E00DBA29C /* flashGordonTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4A75D38245A273E00DBA29C /* flashGordonTheme.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F4A75D25245A097D00DBA29C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A75D28245A097D00DBA29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A75D2A245A097D00DBA29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A75D30245A0B4400DBA29C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F4A75D32245A108700DBA29C /* ButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExt.swift; sourceTree = "<group>"; };
+		F4A75D34245A1E1500DBA29C /* LabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExt.swift; sourceTree = "<group>"; };
+		F4A75D36245A216E00DBA29C /* audioTracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioTracks.swift; sourceTree = "<group>"; };
+		F4A75D38245A273E00DBA29C /* flashGordonTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flashGordonTheme.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,14 @@
 				F4A75D1C245A097900DBA29C /* AppDelegate.swift */,
 				F4A75D1E245A097900DBA29C /* SceneDelegate.swift */,
 				F4A75D20245A097900DBA29C /* ViewController.swift */,
+				F4A75D30245A0B4400DBA29C /* CustomButton.swift */,
+				F4A75D32245A108700DBA29C /* ButtonExt.swift */,
+				F4A75D34245A1E1500DBA29C /* LabelExt.swift */,
+				F4A75D36245A216E00DBA29C /* audioTracks.swift */,
 				F4A75D22245A097900DBA29C /* Main.storyboard */,
 				F4A75D25245A097D00DBA29C /* Assets.xcassets */,
 				F4A75D27245A097D00DBA29C /* LaunchScreen.storyboard */,
+				F4A75D38245A273E00DBA29C /* flashGordonTheme.mp3 */,
 				F4A75D2A245A097D00DBA29C /* Info.plist */,
 			);
 			path = CustomButton;
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A75D39245A273E00DBA29C /* flashGordonTheme.mp3 in Resources */,
 				F4A75D29245A097D00DBA29C /* LaunchScreen.storyboard in Resources */,
 				F4A75D26245A097D00DBA29C /* Assets.xcassets in Resources */,
 				F4A75D24245A097900DBA29C /* Main.storyboard in Resources */,
@@ -138,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A75D33245A108700DBA29C /* ButtonExt.swift in Sources */,
+				F4A75D31245A0B4400DBA29C /* CustomButton.swift in Sources */,
+				F4A75D35245A1E1500DBA29C /* LabelExt.swift in Sources */,
 				F4A75D21245A097900DBA29C /* ViewController.swift in Sources */,
+				F4A75D37245A216E00DBA29C /* audioTracks.swift in Sources */,
 				F4A75D1D245A097900DBA29C /* AppDelegate.swift in Sources */,
 				F4A75D1F245A097900DBA29C /* SceneDelegate.swift in Sources */,
 			);
